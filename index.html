@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script src="p5.min.js"></script>
+
+    <script>
+        function setup() {
+            createCanvas(500, 500)
+            angleMode(DEGREES)
+        }
+
+        function draw() {
+            background("blue")
+            stroke(255,255,255)
+            stroke("black")
+            strokeWeight(3)
+            
+            fill("yellow")
+            circle(250,250,400)
+            
+            fill("white")
+            circle(170,170,50)
+            circle(330,170,50)
+            
+            fill("black")
+            circle(170,170,25)
+            circle(330,170,25)
+
+            noFill()
+            arc(250,280,200,150,0,180)
+        }
+    </script>
+</body>
+</html>
